@@ -3,9 +3,9 @@ package matrix;
 import java.util.ArrayList;
 
 public class q1 {
-    static ArrayList<Integer> spirallyTraverse(int[][] matrix, int r, int c) { ArrayList<Integer> ans=new ArrayList<>();
+    static ArrayList<Integer> spirallyTraverse(int[][] matrix, int r, int c) {
+        ArrayList<Integer> ans=new ArrayList<>();
 
-        ArrayList<Integer> ans =new ArrayList<>();
         if(c==0||r==0) return ans;
         int current_row=0, current_column=c-1;
         while(current_row<r/2)
